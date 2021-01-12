@@ -3,5 +3,6 @@ Library   Browser
 
 *** Test Cases ***
 Example Test
-    New Page    https://playwright.dev
-    Get Text    h1    ==    🎭 Playwright
+    [Tags]  Search
+    New Page    https://www.tietoevry.com/
+    Get Text    h2    ==    Creating digital advantage for businesses and society
